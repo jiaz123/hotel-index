@@ -1,0 +1,44 @@
+.list-box{
+    padding-top: 1.8rem;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    height: 1.8rem;
+    background:#ffffff;
+}
+.nav  > li{
+    width: 1.35rem;
+    height: 0.63rem;
+    border-radius: 0.32rem;
+    font-size: 0.26rem;
+    color: #000;
+    text-align: center;
+    line-height: 0.63rem;
+}
+.nav > li.active{
+    background: #EB666B;
+    color: #ffffff;
+    box-shadow: 0 0.12rem 0.3rem 0 rgba(235,102,107,0.5);
+}
+.list{
+    padding: 0 0.25rem;
+}
+.mustsee-item{
+    width: 6.4rem;
+    margin: 0 auto;
+}
+
+.mustsee-img{
+    width: 100%;
+    height: auto;
+}

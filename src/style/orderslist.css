@@ -1,0 +1,156 @@
+.body{
+    height: auto;
+    background-color: #ffffff;
+}
+header{
+     width: 6.4rem;
+     height: 1rem;
+}
+header .van-icon{
+    float: left;
+}
+header h3{
+    margin-top: 0.26rem;
+    width: 5.5rem;
+    float: left;
+    text-align: center;
+}
+.van-icon.van-icon-arrow-left{
+    color: #EB666B;
+    margin-left: 0.55rem;
+    margin-top: 0.4rem;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin-top: 0.64rem;
+}
+.title button{
+    float: left;
+    /*height: 0.02rem;*/
+}
+.title button img{
+    height: 0.25rem;
+}
+.search{
+    width: 5.58rem;
+    height: 0.6rem;
+    border-radius: 0.1rem;
+    margin: 0.72rem  auto 0;
+    background-color: #fafafa;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+
+}
+.search-box{
+    width:4.5rem;
+    height: 100%;
+    background-color: #fafafa;
+
+}
+.search button{
+    float: right;
+}
+.search button img{
+    height: 0.6rem;
+}
+
+.order-buttons{
+    margin: 0 auto;
+    width: 6.4rem;
+    height: 0.63rem;
+    margin-top: 0.65rem;
+    display: flex;
+    justify-content: space-between;
+}
+.order-buttons ul{
+    width: 100%;
+}
+.order-buttons ul li{
+    float: left;
+    width: 17%;
+    text-align: center;
+    margin: 0 0.1rem ;
+}
+
+.order-buttons ul li div{]
+    height: 0.63rem;
+    width: 100%;
+    line-height: 0.63rem;
+}
+
+.tap{
+    color: #fafafa;
+    width:20%;
+    height: 0.63rem;
+    background-color: #eb666b;
+    box-shadow: 0 0.12rem 0.3rem 0 rgba(235, 102, 107, 0.5);
+    border-radius: 0.32rem;
+}
+.order-buttons ul li:nth-child(4){
+    margin-right: 0;
+}
+/*.order-buttons ul li div span{*/
+/*    position: relative;*/
+/*    top: 0.1rem;*/
+/*}*/
+.big-order{
+    width: 6.4rem;
+    margin: 0.64rem auto 0 ;
+    height: auto;
+}
+.big-order img{
+    position: relative;
+    height: 2.52rem;
+    width: 100%;
+    border-radius: 0.08rem 0.08rem 0 0;
+}
+.big-order li{
+    box-shadow: 0 0.01rem 0.3rem 0
+    rgba(242, 242, 242, 0.75);
+    border-radius: 0.08rem;
+    margin-bottom: 0.5rem;
+}
+
+/*.big-order li:nth-child(1){*/
+/*    margin-top: 0;*/
+/*}*/
+
+.big-order li .info{
+    height: 2.52rem;
+    width: 100%;
+    font-size: 0.2rem;
+}
+
+.big-order li .info .fromdate,.todate{
+    font-size: 0.5rem;
+}
+
+.big-order li .name{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.32rem;
+    line-height: 0.78rem;
+    height: 0.78rem;
+    border-bottom: 0.02rem solid #f7f7f7;
+    padding: 0 0.4rem 0;
+}
+.big-order li .buttons{
+    height: 0.48rem;
+    padding: 0.25rem 0.4rem;
+    line-height: 0.4rem;
+}
+.big-order li .buttons button{
+    float: right;
+    height: 0.48rem;
+    border-radius: 0.08rem;
+}
+.big-order li .buttons button:nth-child(2){
+    border: solid 0.02rem #e5e5e5;
+
+}
+.big-order li .buttons button:nth-child(1){
+    color: #fafafa;
+    background-color: #eb666b;
+
+}
